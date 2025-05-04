@@ -1,1 +1,7 @@
-# Knowledge_Discovery
+# Multilingual Document Discovery
+
+Accessing information from extensive Google Cloud Platform (GCP) documentation was challenging, particularly when users needed to navigate complex technical content across multiple languages. Traditional search methods were not useful in efficiently retrieving relevant sections, especially in multilingual contexts. To improve this experience, there was a need for a smarter, language-agnostic system that could simplify how users interact with and extract knowledge from GCP documents.
+
+To address this, a solution was developed using Google Cloud's Vertex AI platform, leveraging the "text-bison@001" large language model for advanced natural language processing. Through effective prompt engineering, the LLM was guided to interpret user queries accurately and retrieve content from a corpus of GCP documents. The system was also equipped with multi-language support, allowing users to ask questions in their native language and receive relevant responses—even if the source content was originally in a different language.
+
+The result was a prototype of a multilingual, LLM-powered knowledge access platform tailored for GCP documentation. It enabled users to intuitively search and retrieve technical information, reducing the time spent navigating through lengthy documents. This approach significantly improved accessibility and user efficiency, demonstrating the powerful role of LLMs in making documentation more user-friendly and globally accessible.
